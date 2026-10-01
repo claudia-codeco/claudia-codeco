@@ -214,6 +214,53 @@ a:hover { color: var(--accent); }
 
 .bio p { margin-bottom: 1rem; max-width: 60rem; text-align: justify; }
 
+/* ————— Projetos ————— */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.1rem;
+}
+.project-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  transition: transform .15s, box-shadow .15s;
+}
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(18,57,46,.10), 0 12px 30px rgba(18,57,46,.09);
+}
+.project-name {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--green-900);
+}
+.project-tag {
+  display: inline-block;
+  align-self: flex-start;
+  background: var(--green-100);
+  color: var(--green-800);
+  border-radius: 6px;
+  padding: .1rem .55rem;
+  font-size: .72rem;
+  font-weight: 600;
+}
+.project-desc { font-size: .92rem; color: var(--ink-soft); flex: 1; }
+.project-link {
+  font-size: .88rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--green-700);
+  margin-top: .2rem;
+}
+.project-link:hover { color: var(--accent); }
+
 /* ————— Timeline ————— */
 .timeline {
   list-style: none;
