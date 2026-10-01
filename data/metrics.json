@@ -2,9 +2,10 @@
  "updated": "2026-10-01",
  "source_note": "Google Scholar (atualizado manualmente) / ORCID (automático)",
  "google_scholar": {
-  "citations": null,
-  "h_index": null,
-  "i10": null,
+  "citations": 5053,
+  "citations_note": "desde 2021",
+  "h_index": 38,
+  "i10": 96,
   "profile": "https://scholar.google.com/citations?user=VEjEF-oAAAAJ"
  },
  "orcid": {
