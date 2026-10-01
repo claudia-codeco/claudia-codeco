@@ -62,6 +62,30 @@ a:hover { color: var(--accent); }
 }
 .nav-links a:hover { opacity: 1; color: #fff; }
 
+/* ————— Seletor de idioma ————— */
+.lang-switch {
+  display: inline-flex;
+  margin-left: 1.4rem;
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: #cfe3d8;
+  font-family: inherit;
+  font-size: .8rem;
+  font-weight: 600;
+  padding: .25rem .7rem;
+  cursor: pointer;
+  opacity: .75;
+  transition: background .15s;
+}
+.lang-btn + .lang-btn { border-left: 1px solid rgba(255,255,255,.28); }
+.lang-btn:hover { background: rgba(255,255,255,.10); }
+.lang-btn.active { background: rgba(255,255,255,.18); color: #fff; opacity: 1; }
+
 .hero-inner {
   max-width: 1060px;
   margin: 0 auto;
